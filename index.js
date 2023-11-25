@@ -1,5 +1,5 @@
-import scrollUtilities from './assets/js/scroll_utilities.js'
+import NavigationUtilities from './assets/js/navigation.js'
 
 document.addEventListener('DOMContentLoaded',()=>{
-    scrollUtilities()
+    NavigationUtilities()
 })

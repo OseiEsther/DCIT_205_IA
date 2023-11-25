@@ -8,6 +8,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Jost", sans-serif;
+  transition: 0.3s;
 }
 
 body {
@@ -33,6 +34,8 @@ body {
   height: var(--unscroll-header-height);
   background-color: transparent;
   gap: 3rem;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #desktop-nav {
@@ -58,19 +61,81 @@ body {
   text-transform: capitalize;
 }
 
-#_logo_ug {
-  height: 2.5cm;
-  display: none;
+#_logo_ug,
+#mb_ug_logo {
+  height: 1.2cm;
+  display: block;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
 #header.unscroll #_logo_ug {
   display: block;
+  height: 3cm;
 }
-
+#header.unscroll #mb_ug_logo {
+  height: 2.5cm;
+}
 #header.unscroll #desktop-nav ul li a {
   color: var(--primary-color);
+}
+
+#mobile-nav {
+  display: none;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  padding-top: 1.5rem;
+}
+
+#mobile-nav.show {
+  display: flex;
+}
+
+#mobile-nav ul {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: flex-start;
+  gap: 1rem;
+  list-style: none;
+  align-items: center;
+  width: 90%;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  padding-left: 0;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 10px var(--primary-color);
+  position: relative;
+}
+
+#mobile-nav ul li a {
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--primary-color);
+  text-transform: capitalize;
+}
+
+#mobile-nav ul li a:hover,
+#desktop-nav ul li a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+#close-btn {
+  background-color: transparent;
+  position: absolute;
+  outline: none;
+  border: 0;
+  font-size: 35px;
+  color: var(--secondary-color);
+  cursor: pointer;
+  top: 2rem;
+  left: 2rem;
 }
 
 #search-btn,
@@ -92,11 +157,10 @@ body {
   color: var(--primary-color);
 }
 
-
 /* Hero Section */
 #hero {
   width: 100%;
   height: 100vh;
-  background-color: red;
-  margin-top: calc(-1 * var(--unscroll-header-height)) ;
+  background-color: white;
+  margin-top: calc(-1 * var(--unscroll-header-height));
 }

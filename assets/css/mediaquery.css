@@ -7,16 +7,24 @@
 */
 
 @media screen and (min-width: 1024px) {
-    #header.unscroll {
-        justify-content: center;
-      }
-
+  #header.unscroll {
+    justify-content: center;
+  }
+  #_logo_ug {
+    display: none;
+  }
+  #mb_ug_logo {
+    display: none;
+  }
   #desktop-nav {
     display: block;
+  }
+
+  #mobile-nav {
+    display: none;
   }
 
   #nav-toggler {
     display: none;
   }
-  
 }
