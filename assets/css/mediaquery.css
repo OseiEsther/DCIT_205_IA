@@ -6,6 +6,12 @@
 1440 
 */
 
+@media screen and (min-width: 875px) {
+  #program_list {
+    justify-content: start;
+   }
+}
+
 @media screen and (min-width: 1024px) {
   #header.unscroll {
     justify-content: center;
@@ -42,5 +48,21 @@
   #overlay-bg p {
     width:70%;
   }
+
+  #overview_text {
+    grid-column: span 8 / span 12;;
+   }
+   
+   #overview_info {
+     grid-column: span 4 / span 12;;
+   }
+
+   #overview_text h2{
+    font-size: 30px;
+   }
+
+   #overview_text h3{
+    font-size: 20px;
+   }
 
 }
