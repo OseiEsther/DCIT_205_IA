@@ -65,12 +65,19 @@
     font-size: 20px;
   }
 
-  #events h2, #short_course_program h2 {
+  #events h2,
+  #short_course_program h2,
+  #research_context h2 {
     font-size: 30px;
   }
 
-  #events #_p_1, #short_course_program #_p_1{
+  #events #_p_1,
+  #short_course_program #_p_1 {
     width: 80%;
   }
-
+  #research {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 0 2rem;
+    margin-top: 10rem;
+  }
 }
