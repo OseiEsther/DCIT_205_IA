@@ -64,4 +64,13 @@
   #overview_text h3 {
     font-size: 20px;
   }
+
+  #events h2, #short_course_program h2 {
+    font-size: 30px;
+  }
+
+  #events #_p_1, #short_course_program #_p_1{
+    width: 80%;
+  }
+
 }
