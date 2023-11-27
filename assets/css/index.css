@@ -206,8 +206,7 @@ body {
 
 #overview {
   width: 100%;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 3rem 0rem;
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 2rem;
@@ -312,4 +311,75 @@ body {
 
 #overview_info {
   grid-column: span 12 / span 12;
+  padding: 0 1rem;
+}
+
+#contacts_cont {
+  width: 100%;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0.5rem;
+  gap: 1.5rem;
+}
+
+#_title {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#contacts_cont p:nth-child(2) {
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#contacts_cont p:nth-child(3),
+#contacts_cont p:nth-child(4) {
+  color: white;
+  font-weight: 200;
+}
+
+#contacts_cont p:nth-child(5) {
+  color: var(--secondary-color);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.no_style {
+  list-style-type: none;
+  padding: 0;
+}
+
+#social_info p {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#social_icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+#social_icons li a {
+  font-size: 25px;
+  color: var(--secondary-color);
+
+}
+
+#contacts_cont button {
+  background-color: var(--secondary-color);
+  border: 0;
+  outline: none;
+  padding: 01rem 2rem;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
 }
