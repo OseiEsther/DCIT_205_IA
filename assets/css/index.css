@@ -439,6 +439,9 @@ button {
 
 #short_course_program {
   margin-top: 3cm;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
 }
 
 #short_course_program h2 {
@@ -457,6 +460,7 @@ button {
   padding: 2rem 1rem;
   overflow: hidden;
   cursor: grabbing;
+  margin-top: 2rem;
 }
 
 .swiper-slide {
@@ -483,6 +487,10 @@ button {
   height: 100%;
 }
 
+.swiper-slide:hover  .img_box img  {
+transform: scale(1.3);
+}
+
 .swiper-slide .course_title {
   color: var(--secondary-color);
   margin-top: 1rem;
@@ -495,4 +503,17 @@ button {
   color: white;
   font-weight: 300;
   padding: 0 10px;
+  font-size: 15px;
+}
+
+#short_course_program a {
+  text-decoration: none;
+  align-self: center;
+}
+#short_course_program a button {
+  padding: 1rem 2rem;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: var(--secondary-color);
+  color: white;
 }
