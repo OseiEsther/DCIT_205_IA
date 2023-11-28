@@ -758,3 +758,14 @@ footer {
   color: blue;
   text-decoration: underline;
 }
+
+#photos {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+#photos img {
+  width: 100%;
+}

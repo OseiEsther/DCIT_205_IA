@@ -35,6 +35,11 @@
   ._staff_content {
     grid-column: span 7;
   }
+
+  #photos {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
 }
 
 @media screen and (min-width: 875px) {
@@ -122,6 +127,10 @@
   }
 
   ._news_box {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  #photos {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
