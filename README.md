@@ -5,6 +5,7 @@
 - [About the Project](#about-the-project)
 - [Author](#author)
 - [Built With](#built-with)
+- [Live demo](#live-demo)
 - [Features Implemented](#features-implemented)
 - [Getting Started](#getting-started)
   - [Cloning the Repository](#cloning-the-repository)
@@ -24,6 +25,10 @@ This project involved the development of a 10-page website for the Computer Scie
  - HTML
  - CSS
  - Javascript
+ 
+#### Live demo
+[Live demo of the project]()
+
 
 #### Features Implemented
 
@@ -63,6 +68,10 @@ Clone this repository to your desired folder:
 
 ### Insights and Learnings
 
-Through this project, I learned a great deal about frontend web development using HTML, CSS, and JavaScript. I have also learn about media queries for responsive designs. Overcoming challenges such as implementing responsive design and maintaining consistent styling across pages provided valuable learning opportunities.
+- Through this project, I learned a great deal about frontend web development using HTML, CSS, and JavaScript. 
+- I have also learn about media queries for responsive designs. 
+- I have learn about deploying website on github pages
+- I have learn a lot about using CSS grid effectively 
+- Overcoming challenges such as implementing responsive design and maintaining consistent styling across pages provided valuable learning opportunities.
 
 
