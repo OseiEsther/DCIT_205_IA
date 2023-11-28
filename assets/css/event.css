@@ -4,4 +4,8 @@
   --unscroll-header-height: 5cm;
 }
 
-
+.text-center {
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+}
