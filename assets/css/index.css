@@ -606,7 +606,7 @@ footer {
   text-decoration: underline;
 }
 
-.footer_el ul li  {
+.footer_el ul li {
   color: white;
   display: flex;
   flex-direction: row;
@@ -645,4 +645,76 @@ footer {
 
 .color-white {
   color: white;
+}
+
+._event_h2 {
+  text-align: center;
+}
+
+.event_content {
+  width: 100%;
+  padding: 0.6rem 5px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.event_content ._event_time {
+  width: 100%;
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+._event_time span {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 15px;
+}
+
+._event_time span:nth-child(1) {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--secondary-color);
+  font-size: 25px;
+}
+
+._event_time hr {
+  border: 2px solid var(--secondary-color);
+  margin-top: 5px;
+  width: 50%;
+}
+
+._event_detail {
+  width: 100%;
+  grid-column: span 9;
+}
+
+._event_detail p {
+  text-align: start;
+  font-size: 15px;
+  color: var(--primary-color);
+  font-size: 700;
+}
+
+.venue_ {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: start;
+  margin-top: 6px;
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  align-items: center;
+}
+
+.venue_ span {
+  grid-column: span 8;
+}
+
+#current_new.research p{
+  text-align: center;
+  margin-top: .5rem;
+  color: black;
 }

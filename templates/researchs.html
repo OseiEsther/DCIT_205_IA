@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CS Department | University Of Ghana</title>
+    <title>About CS Department | University Of Ghana</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <script
       src="https://kit.fontawesome.com/e9f5458810.js"
       crossorigin="anonymous"
@@ -14,8 +19,10 @@
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/css/index.css" />
-    <link rel="stylesheet" href="./assets/css/mediaquery.css" />
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <link rel="stylesheet" href="../assets/css/news.css" />
+    <link rel="stylesheet" href="../assets/css/event.css" />
+    <link rel="stylesheet" href="../assets/css/mediaquery.css" />
   </head>
   <body>
     <!-- Navigation bar starts here -->
@@ -26,42 +33,42 @@
       <nav id="desktop-nav" class="nav">
         <ul>
           <li>
-            <a href="./index.html"> Home </a>
+            <a href="../index.html"> Home </a>
           </li>
           <li>
-            <a href="./templates/about.html"> About </a>
+            <a href="./about.html"> About </a>
           </li>
           <li>
-            <a href="./templates/contacts.html"> Contact </a>
+            <a href="./contacts.html"> Contact </a>
           </li>
           <li>
-            <a href="./templates/news.html"> News </a>
+            <a href="./news.html"> News </a>
           </li>
           <li>
-            <a href="./index.html">
+            <a href="../index.html">
               <img
-                src="./assets/images/ug_logo.png"
+                src="../assets/images/ug_logo.png"
                 alt="ug_log"
                 id="_logo_ug"
               />
             </a>
           </li>
           <li>
-            <a href="./templates/events.html"> events </a>
+            <a href="./events.html"> events </a>
           </li>
           <li>
-            <a href="./templates/researchs.html"> Research </a>
+            <a href="./researchs.html"> Research </a>
           </li>
           <li>
-            <a href="./templates/catalog.html"> Catalogs </a>
+            <a href="./catalog.html"> Catalogs </a>
           </li>
           <li>
-            <a href="./templates/resources.html"> Resources </a>
+            <a href="./resources.html"> Resources </a>
           </li>
         </ul>
       </nav>
-      <a href="./index.html">
-        <img src="./assets/images/ug_logo.png" alt="ug_log" id="mb_ug_logo" />
+      <a href="../index.html">
+        <img src="../assets/images/ug_logo.png" alt="ug_log" id="mb_ug_logo" />
       </a>
       <nav id="mobile-nav" class="nav">
         <ul>
@@ -69,29 +76,29 @@
             <i class="fa-solid fa-xmark"></i>
           </button>
           <li>
-            <a href="./index.html"> Home </a>
+            <a href="../index.html"> Home </a>
           </li>
           <li>
-            <a href="./templates/about.html"> About </a>
+            <a href="./about.html"> About </a>
           </li>
           <li>
-            <a href="./templates/contacts.html"> Contact </a>
+            <a href="./contacts.html"> Contact </a>
           </li>
           <li>
-            <a href="./templates/news.html"> News </a>
+            <a href="./news.html"> News </a>
           </li>
 
           <li>
-            <a href="./templates/events.html"> events </a>
+            <a href="./events.html"> events </a>
           </li>
           <li>
-            <a href="./templates/researchs.html"> Research </a>
+            <a href="./researchs.html"> Research </a>
           </li>
           <li>
-            <a href="./templates/catalog.html"> Catalogs </a>
+            <a href="./catalog.html"> Catalogs </a>
           </li>
           <li>
-            <a href="./templates/resources.html"> Resources </a>
+            <a href="./resources.html"> Resources </a>
           </li>
         </ul>
       </nav>
@@ -100,90 +107,163 @@
       </button>
     </header>
     <!-- Navigation bar ends here -->
-    <section id="hero">
-      <video autoplay muted loop id="hero_bg_video">
-        <source src="./assets//videos/video-bg.mp4" />
-      </video>
-      <div class="" id="overlay-bg">
-        <h1>DEPARTMENT OF COMPUTER SCIENCE</h1>
-        <p>
-          The University of Ghana's Computer Science Department fosters
-          innovation and excellence through dynamic learning where faculty
-          industry experts lead students in hands-on programming, AI,
-          cybersecurity, and more, preparing future tech leaders to shape the
-          future via research and solving real-world challenges.
-        </p>
+    <section id="hero" class="_news_hero">
+      <div id="overlay-bg" class="news">
+        <h1 class="text-center">OUR RESEARCH AND IMPACTS</h1>
       </div>
     </section>
-    <section id="overview">
-      <section id="overview_text">
-        <h2>
-          Preparing Our Students to Make Meaningful Contributions to the World
-        </h2>
-        <p id="h2_p">
-          The main goal of the Computer Science Department at the University of
-          Ghana is to provide a comprehensive and rigorous education in computer
-          science that empowers students with the knowledge, skills, and ethical
-          values needed to excel in the rapidly evolving technological
-          landscape. <br />
-          <br />
-          Undergraduate students have the option of declaring a Bachelor of
-          Science or a Minor in Computer Science. Graduate students have the
-          opportunity to pursue a Master's or PhD degree in Computer Science.
-          The Master's degree is a terminal professional degree. The PhD is for
-          those who desire a research or teaching career.
-        </p>
-        <h3>Computer Science Programs at University of Ghana</h3>
-        <div id="program_list">
-          <div class="program">
-            <div class="program_header short_coures">Short Courses</div>
-            <p class="program_desc">
-              Our eight week intensive certificate course is open to senior high
-              school graduates, tertiary students, school graduates, workers and
-              the general public.
-            </p>
-            <a href="">read more</a>
-          </div>
 
-          <div class="program">
-            <div class="program_header ug_coures">Undergraduate programmes</div>
-            <p class="program_desc">
-              Open the door to sought-after technology careers with a
-              world-class Bachelor of Science in Computer Science degree.
-            </p>
-            <a href="">read more</a>
-          </div>
-
-          <div class="program">
-            <div class="program_header mse_coures">
-              MPhil and Msc programmes.
-            </div>
-            <p class="program_desc">
-              Embrace world class gradate education with unique blend of
-              cutting-edge research and industry experience.
-            </p>
-            <a href="">read more</a>
-          </div>
-
-          <div class="program">
-            <div class="program_header phd_coures">PhD programmes</div>
-            <p class="program_desc">
-              Our PHDs lead the effort to extend the boundaries of knowledge
-              through quality and industry relevant research.
-            </p>
-            <a href="">read more</a>
-          </div>
-
-        </div>
+    <main>
+      <section id="overview">
+        <section id="overview_text" class="news">
+          <h2>Our Research Initiatives and Global Impacts</h2>
+          <p>
+            Explore innovative research with real-world impact at the University
+            of Ghana's Computer Science Department. Our diverse projects
+            influence industries and society, driving meaningful change.
+          </p>
+        </section>
       </section>
-      <section id="overview_info">
-        <div id="contacts_cont">
-           <p>Department Contact Info</p>
-           <p>Computer Science</p>
-           <p>Computer Science</p>
-        </div>
+
+      <section id="current_new" class="research">
+        <h2 class="_event_h2">Research Projects</h2>
+        <p>Exciting research projects coming soon! Stay tuned for our upcoming
+          updates.</p>
       </section>
-    </section>
-    <script src="./index.js" type="module"></script>
+
+      
+    </main>
+
+    <footer>
+      <div class="footer_el aca">
+        <p class="_header">Academics</p>
+        <hr />
+        <ul class="no_style">
+          <li><a href="/undergrad-course">Undergraduate Courses</a></li>
+          <li>
+            <a href="/mphil-course">Graduate Courses(MPhil Computer Science)</a>
+          </li>
+          <li>
+            <a href="/msc-course">Graduate Courses(MSc Computer Science)</a>
+          </li>
+          <li><a href="/phd-course">Graduate Courses(PhD)</a></li>
+          <li>
+            <a href="https://www.ug.edu.gh/academics/calendar"
+              >Academic Calendar</a
+            >
+          </li>
+          <li>
+            <a
+              href="img/_DEPARTMENT OF COMPUTER SCIENCE, UG - 200 &amp; 300.pdf"
+              >Level 200 &amp; 300 Timetable</a
+            >
+          </li>
+          <li>
+            <a href="img/_Placements lvl200.pdf"
+              >Placements For Level 200 Students</a
+            >
+          </li>
+          <li>
+            <a href="https://forms.gle/smoyM5M3HWaayagk7"
+              >Student Complaint Form</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer_el aca">
+        <p class="_header">Admissions</p>
+        <hr />
+        <ul class="no_style">
+          <li>
+            <a href="http://admission.ug.edu.gh/applying/undergraduate/overview"
+              >Undergraduate</a
+            >
+          </li>
+          <li>
+            <a href="http://admission.ug.edu.gh/applying/postgraduate/overview"
+              >Graduate</a
+            >
+          </li>
+          <li>
+            <a href="http://admission.ug.edu.gh/applying/international/overview"
+              >International Students</a
+            >
+          </li>
+          <li><a href="/entry">Entry Requirements</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer_el aca">
+        <p class="_header">Research</p>
+        <hr />
+        <ul class="no_style">
+          <li><a href="/research-dcs">Research at DCS</a></li>
+          <li><a href="/research-impact">Research Impact</a></li>
+          <li><a href="http://balme.ug.edu.gh/">Libraries</a></li>
+        </ul>
+      </div>
+
+      <div class="footer_el aca">
+        <p class="_header">About The Department</p>
+        <hr />
+        <ul class="no_style">
+          <li><a href="/about">Introducing DCS</a></li>
+          <li><a href="/officehod">Head of Department's office</a></li>
+          <li><a href="/faculty">Faculty</a></li>
+          <li><a href="/events">Events</a></li>
+        </ul>
+      </div>
+
+      <div class="new_letter footer_el">
+        <p class="_header">Newsletter</p>
+        <hr />
+        <p class="mt-1rem color-white">Subscribe to our monthly new letter</p>
+        <div id="new_letter">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+          <button type="button" class="color-white">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="new_letter footer_el">
+        <p class="_header">Contact Us</p>
+        <hr />
+        <ul class="no_style">
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <span>+233 501 382 035</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <span> +233 559 145 698</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <span>dcs@ug.edu.gh</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="new_letter footer_el">
+        <p class="_header">Contact Us</p>
+        <hr />
+        <ul class="no_style">
+          <li>University Of Ghana, Legon Campus</li>
+          <li>Opposite Mathematics Department</li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="../index.js" type="module"></script>
   </body>
 </html>
