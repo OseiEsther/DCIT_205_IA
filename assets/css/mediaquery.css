@@ -47,9 +47,14 @@
     align-items: flex-start;
   }
 
+  #overlay-bg.about {
+    align-items: center;
+  }
+
   #overlay-bg h1 {
     font-size: 34px;
   }
+
 
   #overlay-bg p {
     width: 70%;

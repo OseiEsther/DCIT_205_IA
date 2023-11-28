@@ -179,13 +179,6 @@ main {
   z-index: 1;
   height: 100%;
   width: 100%;
-  /* background-image: radial-gradient(
-    #ba8f4a34,
-    #ba8f4a5b,
-    #ba8f4a83,
-    #291e0e94,
-    #302513c7
-  ); */
   display: flex;
   flex-direction: column;
   justify-content: end;

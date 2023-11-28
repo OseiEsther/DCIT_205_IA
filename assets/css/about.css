@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #232559;
+  --secondary-color: #ba8f4a;
+  --unscroll-header-height: 5cm;
+}
+
+._about_hero {
+  background-image: url("../images/about_us.jpg"),
+    linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.363),
+      rgba(0, 0, 0, 0.596),
+      rgba(0, 0, 0, 0.826),
+      rgba(0, 0, 0, 0.932)
+    );
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+#overlay-bg.about h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+#overview_text.about {
+  grid-column: span 12 / span 12;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#overview_text.about p {
+  width: 90%;
+}
