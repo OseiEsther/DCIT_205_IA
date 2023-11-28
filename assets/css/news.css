@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #232559;
+  --secondary-color: #ba8f4a;
+  --unscroll-header-height: 5cm;
+}
+
+._news_hero {
+  background-image: url("../images/news_us.jpeg"),
+    linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.363),
+      rgba(0, 0, 0, 0.596),
+      rgba(0, 0, 0, 0.826),
+      rgba(0, 0, 0, 0.932)
+    );
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+#overlay-bg.news h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+#overview_text.news {
+  grid-column: span 12 / span 12;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#overview_text.news p {
+  width: 90%;
+  margin-top: 1rem;
+}
+
+#current_new {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+#current_new {
+  color: var(--secondary-color);
+  font-weight: 500;
+}

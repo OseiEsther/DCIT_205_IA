@@ -97,6 +97,11 @@
     padding: 0 2rem;
     margin-top: 10rem;
   }
+
+  #current_new {
+    padding: 0 2rem;
+}
+
   footer {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
