@@ -6,6 +6,12 @@
 1440 
 */
 
+/* @media screen and (min-width: 500px) {
+  ._staff {
+    width: 60%;
+  }
+} */
+
 @media screen and (min-width: 700px) {
   footer {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -17,6 +23,17 @@
 
   ._news_box {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  ._staff {
+    width: 60%;
+  }
+  .staff_profile_box {
+    grid-column: span 5;
+  }
+
+  ._staff_content {
+    grid-column: span 7;
   }
 }
 
