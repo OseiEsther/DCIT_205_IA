@@ -12,6 +12,7 @@
   - [Running the Website](#running-the-website)
 - [Screenshots](#screenshots)
 - [Insights and Learnings](#insights-and-learnings)
+
 ### About the Project
 
 This project involved the development of a 10-page website for the Computer Science Department. The primary objective was to improve the existing website, emphasizing user-friendliness, navigation, and information representation. The website was built using HTML, CSS, and JavaScript, adhering to the guidelines and restrictions provided in the project requirements.
@@ -22,13 +23,14 @@ This project involved the development of a 10-page website for the Computer Scie
 - **Student ID:** 11352966
 
 #### Built With
- - HTML
- - CSS
- - Javascript
- 
-#### Live demo
-[Live demo of the project]()
 
+- HTML
+- CSS
+- Javascript
+
+#### Live demo
+
+[Live demo of the project](https://oseiesther.github.io/DCIT_205_IA/)
 
 #### Features Implemented
 
@@ -49,7 +51,6 @@ Clone this repository to your desired folder:
   git clone https://github.com/OseiEsther/DCIT_205_IA.git
 ```
 
-
 #### Running the Website
 
 - Open the `index.html` file in your preferred web browser.
@@ -68,10 +69,8 @@ Clone this repository to your desired folder:
 
 ### Insights and Learnings
 
-- Through this project, I learned a great deal about frontend web development using HTML, CSS, and JavaScript. 
-- I have also learn about media queries for responsive designs. 
+- Through this project, I learned a great deal about frontend web development using HTML, CSS, and JavaScript.
+- I have also learn about media queries for responsive designs.
 - I have learn about deploying website on github pages
-- I have learn a lot about using CSS grid effectively 
+- I have learn a lot about using CSS grid effectively
 - Overcoming challenges such as implementing responsive design and maintaining consistent styling across pages provided valuable learning opportunities.
-
-
