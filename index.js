@@ -6,3 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // initialized swippers
   swippers();
 });
+
+const pathname = window.location.pathname;
+let paths = pathname.split("/");
+console.log(paths[paths.length - 1]);

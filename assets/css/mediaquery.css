@@ -6,6 +6,12 @@
 1440 
 */
 
+@media screen and (min-width: 700px) {
+  footer {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media screen and (min-width: 875px) {
   #program_list {
     justify-content: start;
@@ -80,4 +86,8 @@
     padding: 0 2rem;
     margin-top: 10rem;
   }
+  footer {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
+

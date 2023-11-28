@@ -222,13 +222,15 @@ main {
   padding-left: 1rem;
 }
 
-#overview_text h2 ,  #research_context h2{
+#overview_text h2,
+#research_context h2 {
   color: var(--primary-color);
   text-transform: uppercase;
   font-size: 20px;
 }
 
-#overview_text #h2_p, #research_context p {
+#overview_text #h2_p,
+#research_context p {
   margin-top: 2rem;
 }
 
@@ -421,10 +423,12 @@ button {
   outline: none;
   border: 0;
 }
-#event_container a, #research_context a{
+#event_container a,
+#research_context a {
   text-decoration: none;
 }
-#event_container a button, #research_context button {
+#event_container a button,
+#research_context button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -487,8 +491,8 @@ button {
   height: 100%;
 }
 
-.swiper-slide:hover  .img_box img  {
-transform: scale(1.3);
+.swiper-slide:hover .img_box img {
+  transform: scale(1.3);
 }
 
 .swiper-slide .course_title {
@@ -528,24 +532,23 @@ transform: scale(1.3);
 }
 
 #research #img_box {
- width: 100%;
- background-color: red;
- display: flex;
- justify-content: center;
- align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#research #img_box img{
+#research #img_box img {
   width: 100%;
   height: 100%;
- }
+}
 
- #research_context button {
+#research_context button {
   margin-top: 2rem;
- }
+}
 
 .stories {
-  width: 10cm;
+  width: 8cm;
   background-color: white;
 }
 
@@ -571,4 +574,82 @@ transform: scale(1.3);
   margin-top: 1rem;
 }
 
+footer {
+  width: 100%;
+  padding: 2rem 1rem;
+  background-color: var(--primary-color);
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  row-gap: 3rem;
+  column-gap: 2rem;
+}
 
+.footer_el ._header {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+}
+
+.footer_el hr {
+  border: 1.5px solid var(--secondary-color);
+}
+
+.footer_el ul {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer_el ul li a {
+  text-decoration: none;
+  color: rgb(173, 173, 173);
+  font-weight: 500;
+}
+
+.footer_el ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer_el ul li  {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+#new_letter {
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+  height: 1.3cm;
+}
+
+#new_letter input {
+  width: 70%;
+  outline: none;
+  height: 1.3cm;
+  padding: 0 10px;
+  font-size: 16px;
+  border: 2px solid var(--secondary-color);
+  color: rgb(71, 71, 71);
+}
+
+#new_letter button {
+  width: 30%;
+  height: 1.3cm;
+  border: 0;
+  background-color: var(--secondary-color);
+  font-size: 22px;
+}
+
+.mt-1rem {
+  margin-top: 1rem;
+}
+
+.color-white {
+  color: white;
+}
